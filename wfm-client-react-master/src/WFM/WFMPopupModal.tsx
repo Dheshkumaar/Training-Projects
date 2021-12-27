@@ -22,7 +22,6 @@ const WFMPopupModal = (props:any)=> {
         const textarea = event.target.value;
         setaccepted(textarea)
       }
-
     let Array = (props.id).split(",");
     return(      
         <div className="modal">

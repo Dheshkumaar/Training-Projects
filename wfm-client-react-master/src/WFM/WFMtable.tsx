@@ -33,8 +33,8 @@ const WFMManager = () => {
   const [id,setId] = useState(0)
 
   return (
-    <table className="table">
-      <thead>
+    <table className="table table-bordered">
+      <thead className="table-success">
         <tr>
           <th>EmployeeID</th>
           <th>Requestee</th>

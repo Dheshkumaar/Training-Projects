@@ -32,8 +32,8 @@ const Manager = () => {
   const [Id,SetID] = useState(0) 
 
   return (
-    <table className="table">
-      <thead>
+    <table className="table table-bordered">
+      <thead className="table-success">
         <tr>
           <th>EmployeeID</th>
           <th>Name</th>
@@ -56,7 +56,7 @@ const Manager = () => {
                 <td>{x.Experience}</td>
                 <td>{x.Manager}</td>
                 <td>
-                  <button id={string} className="btn btn-primary" onClick={handleClick}>{x.Status}</button>
+                  <button id={string} className="btn btn-primary" onClick={handleClick}>Softlock</button>
                   <PopupModal show={show} toggle={handleClick} id={Id}> </PopupModal>
                 </td>
               </tr>
